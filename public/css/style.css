@@ -1,19 +1,88 @@
 :root {
   --whiteColor: rgb(255, 255, 255);
+  --textColor: #202023;
   --redColor: rgb(255, 0, 0);
-  --bgColor: #202023;
+  --bgColor: #FFFFFF;
   --mainColor: #658DFF;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 html, body {
   font-family: sans-serif;
   background-color: var(--bgColor);
   scroll-behavior: smooth;
   overflow-x: hidden; 
-  color: var(--whiteColor);
+  color: var(--textColor);
   transition-duration: 500ms;
+}
+.section {
+  height: 100vh;
+  position: relative;
+}
+.contentBlock {
+  width: 90vw;
+  margin-left: 5vw;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(45, 34, 36, 0.8);
+  position: absolute;
+  bottom: 1rem;
+}
+.bg1 {
+  background-image: url("../img/1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg2 {
+  background-image: url("../img/2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg3 {
+  background-image: url("../img/3.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg4 {
+  background-image: url("../img/4.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg5 {
+  background-image: url("../img/5.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg6 {
+  background-image: url("../img/6.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg7 {
+  background-image: url("../img/7.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+h1 {
+  position: absolute;
+  top: 15vh;
+  left: 5vw;
+  font-size: 4rem;
+  color: rgba(45, 34, 36, 0.9)
+}
+h2 {
+  font-size: 1.2rem;
+  color:rgb(244, 239, 239);
 }

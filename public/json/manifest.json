@@ -1,11 +1,11 @@
 {
-  "short_name": "Web-stopwatch",
-  "name": "Web-stopwatch",
+  "short_name": "Decores",
+  "name": "Decores",
   "version": "1.1.0",
-  "description": "Stopwatch просто и удобный секундомер!",
+  "description": "Decores все в одном месте!",
   "lang": "ru",
   "orientation": "any",
-  "categories": ["web", "business", "stopwatch"],
+  "categories": ["web", "design", "decores"],
   "icons": [
     {
       "src":"/public/img/logos/512.png",
@@ -15,8 +15,8 @@
     }
   ],
   "start_url": "/index.html",
-  "background_color": "#202023",
-  "theme_color": "#ff6600",
+  "background_color": "#FFFFFF",
+  "theme_color": "#202023",
   "display": "fullscreen",
   "prefer_related_applications": false
 }
