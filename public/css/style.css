@@ -75,6 +75,66 @@ html, body {
   background-repeat: no-repeat;
   background-position: center center;
 }
+.bg8 {
+  background-image: url("../img/8.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.bg9 {
+  background-image: url("../img/9.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg10 {
+  background-image: url("../img/10.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg11 {
+  background-image: url("../img/11.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg12 {
+  background-image: url("../img/12.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg13 {
+  background-image: url("../img/13.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg14 {
+  background-image: url("../img/14.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg15 {
+  background-image: url("../img/15.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg16 {
+  background-image: url("../img/16.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg17 {
+  background-image: url("../img/17.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 h1 {
   position: absolute;
   top: 15vh;
@@ -82,7 +142,48 @@ h1 {
   font-size: 4rem;
   color: rgba(45, 34, 36, 0.9)
 }
+p {
+  position: absolute;
+  top: calc(15vh + 5rem);
+  left: 5vw;
+  color: rgba(45, 34, 36, 0.9);
+  font-weight: 900;
+}
 h2 {
   font-size: 1.2rem;
   color:rgb(244, 239, 239);
+}
+.specialP {
+  padding-top: 5rem;
+}
+.specialP > span {
+  background-color: rgba(255, 255, 255, 0.3);
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-align: center;
+}
+.footer {
+  min-height: 70vh;
+  background-color: black;
+  padding: 1rem 2rem;
+}
+.footer > span {
+  text-align: center;
+  color: white;
+  font-size: 1.1rem;
+  display: block;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.soc {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.social {
+  width: 20vw;
+  padding: 10px;
 }
