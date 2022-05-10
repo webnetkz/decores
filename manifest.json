@@ -1,8 +1,9 @@
 {
   "short_name": "Decores",
-  "name": "Decores",
+  "name": "Decores for Desing",
   "version": "1.1.0",
   "description": "Decores все в одном месте!",
+  "start_url": "decores.kz",
   "lang": "ru",
   "orientation": "any",
   "categories": ["web", "design", "decores"],
@@ -12,9 +13,14 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    },
+	{
+      "src":"/public/img/logos/192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
-  "start_url": "/index.html",
   "background_color": "#FFFFFF",
   "theme_color": "#202023",
   "display": "fullscreen",
